@@ -1,0 +1,30 @@
+apiVersion: v1
+entries:
+  openvpn:
+  - apiVersion: v1
+    appVersion: 2.6.5
+    created: "2023-09-06T18:13:19.872230328+03:00"
+    deprecated: true
+    description: DEPRECATED - A Helm chart to install an openvpn server inside a kubernetes
+      cluster.  Certificate generation is also part of the deployment, and this chart
+      will generate client keys as needed.
+    digest: 2db0b0798425b46486d699838ba5f9c5c698e189fe1e1f5b680f664ecc08b60f
+    home: https://openvpn.net/index.php/open-source.html
+    icon: https://forums.openvpn.net/styles/openvpn/theme/images/ovpnlogo.png
+    keywords:
+    - openvpn
+    - vpn
+    - tunnel
+    - network
+    - service
+    - connectivity
+    - encryption
+    name: openvpn
+    sources:
+    - https://github.com/davidka79/openvpn
+    - https://github.com/kubernetes/charts/tree/master/stable/openvpn
+    - https://github.com/jfelten/helm-charts
+    urls:
+    - https://davidka79.github.io/helm-chart/openvpn-4.2.5.tgz
+    version: 4.2.5
+generated: "2023-09-06T18:13:19.87077344+03:00"
